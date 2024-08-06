@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baddula Prabhas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="C:/portfolio/Harshith.jpeg" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f1f6;
+            color: #333;
+        }
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: #282c34;
+            color: #e0e0e0;
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+        }
+        .sidebar h1, .sidebar p {
+            margin: 10px 0;
+            text-align: center;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: #e0e0e0;
+            margin: 10px 0;
+            padding: 10px 20px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .sidebar a:hover {
+            background-color: #444851;
+        }
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #282c34;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #282c34;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill {
+            flex: 1 1 30%;
+            margin: 10px;
+            text-align: center;
+        }
+        .skill p {
+            margin: 0;
+            font-weight: bold;
+            color: #282c34;
+        }
+        .skill .progress {
+            background-color: #d0d0d0;
+            border-radius: 5px;
+            height: 20px;
+            width: 100%;
+            margin-top: 5px;
+            position: relative;
+        }
+        .skill .progress span {
+            display: block;
+            height: 100%;
+            border-radius: 5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #61dafb;
+        }
+        .project, .experience {
+            margin-bottom: 20px;
+        }
+        .project h3, .experience h3 {
+            margin: 0 0 10px 0;
+            color: #282c34;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info a {
+            color: #282c34;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .contact-icons a {
+            color: #282c34;
+            text-decoration: none;
+            font-size: 28px;
+        }
+        .contact-icons a:hover {
+            color: #61dafb;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Prabhas Baddula</h1>
+        <p>Web Developer</p>
+        <a href="#">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+    <div class="main-content">
+        <section class="section" id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi there! I’m a passionate web developer with a keen eye for detail and a commitment to building user-friendly, responsive websites and applications. My expertise spans from front-end technologies like HTML, CSS, and JavaScript to modern frameworks like React. I am driven by the challenge of creating seamless and engaging user experiences.</p>
+        </section>
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>As a dedicated web developer, I focus on creating visually appealing and highly functional websites. My background includes hands-on experience with front-end technologies, including JavaScript and React. I am continuously learning and adapting to new technologies to stay ahead in the fast-evolving world of web development.</p>
+        </section>
+        <section class="section" id="services">
+            <h2>Services</h2>
+            <p><strong>Front-End Development:</strong> Crafting intuitive and engaging user interfaces with HTML, CSS, and JavaScript.</p>
+            <p><strong>Responsive Design:</strong> Ensuring that websites look great and function well across various devices and screen sizes.</p>
+            <p><strong>Website Optimization:</strong> Improving website performance, including load times and user experience.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="progress"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="skill">
+                    <p>ReactJS</p>
+                    <div class="progress"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill">
+                    <p>Git</p>
+                    <div class="progress"><span style="width: 80%;"></span></div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Responsive Portfolio Website</h3>
+                <p>Developed a personal portfolio website showcasing my projects and skills, featuring a responsive design and smooth animations.</p>
+            </div>
+            <div class="project">
+                <h3>Task Management Application</h3>
+                <p>Built a task management app with React that allows users to track and organize their tasks efficiently.</p>
+            </div>
+        </section>
+        <section class="section" id="experience">
+            <h2>Experience</h2>
+            <div class="experience">
+                <h3>Machine Learning Intern at FeyNN Labs</h3>
+                <p><strong>Duration:</strong> June 2024 – August 2024</p>
+                <p>Worked on developing predictive models and conducting exploratory data analysis. Focused on using machine learning techniques to analyze EV vehicle market data and improve crop yield prediction in agriculture projects.</p>
+            </div>
+            <div class="experience">
+                <h3>Freelance Web Developer</h3>
+                <p><strong>Duration:</strong>  Present</p>
+                <p>Worked on various freelance projects, including building and optimizing websites for clients. Focused on front-end technologies and user experience to deliver custom solutions tailored to client needs.</p>
+            </div>
+        </section>
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div class="contact-icons">
+                    <a href="https://wa.me/7396398626" target="_blank" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:baddulaprabhas@gmail.com" target="_blank" title="Email Me"><i class="fab fa-google"></i></a>
+                    <a href="https://www.linkedin.com/in/b-prabhas-a55081238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
